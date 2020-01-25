@@ -8,9 +8,41 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="container">
+    <div class="row text-center py-5">
+        <div class="col-md-3 col-sm-6 my-3 my-md-0">
+            <form action="index.php" method="post">
+                <div class="card shadow">
+                    <div>
+                        <img src="./upload/product1.png" alt="image" class="img-fluid card-img-top">
+                    </div>
+                
+                    <div class="card-body">
+                        <h5 class="card-title">Product1</h5>
+                        <h6>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </h6>
+                        <p class="card-text">
+                            Some text Some text Some text Some text 
+                        </p>
+                        <h5>
+                            <small><s class="text-secondary">$520</s></small>
+                            <span class="price">$599</span>
+                        </h5>
+                        <button class="btn btn-warning my-3" type="submit" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
