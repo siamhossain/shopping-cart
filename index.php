@@ -16,12 +16,12 @@
 <body>
 <div class="container">
     <div class="row text-center py-5">
-       <?php
-        component();
-        component();
-        component();
-        component();
-       ?>
+        <?php
+            component("Laptop", 599, "./upload/product1.png");
+            component("Headset", 499, "./upload/product2.png");
+            component("Tablet", 399, "./upload/product3.png");
+            component("Smart Phone", 200, "./upload/product4.png");
+        ?>
     </div>
 </div>
 
