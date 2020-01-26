@@ -1,6 +1,11 @@
 <?php
-    require_once('./php/component.php');
+require_once('./php/CreateDb.php');
+require_once('./php/component.php');
+
+$database = new CreateDb("Productdb","Producttb");
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
